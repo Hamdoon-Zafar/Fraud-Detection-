@@ -1,26 +1,3 @@
-"""
-============================================================
-  CREDIT CARD FRAUD DETECTION — Complete ML Pipeline
-  Data Science Internship Task | Capstone Project
-
-  Pipeline Steps:
-    1. Data Loading & Validation
-    2. Exploratory Data Analysis (EDA)
-    3. Feature Scaling (RobustScaler)
-    4. Train/Test Split (stratified)
-    5. Class Imbalance Handling (SMOTE)
-    6. Model Training (Random Forest)
-    7. Evaluation (Confusion Matrix, ROC-AUC, F1)
-    8. Visualization & Report Export
-
-  Dataset : Kaggle Credit Card Fraud Detection
-            https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
-
-  Author  : [Your Name]
-  Domain  : Data Science
-============================================================
-"""
-
 import os
 import sys
 import logging
@@ -589,7 +566,7 @@ def main():
         len(X_train), len(X_test)
     )
 
-    print(f"\n✅ Pipeline complete.")
+    print(f"\nPipeline complete.")
     print(f"   Plots  → {PLOTS_DIR.resolve()}")
     print(f"   Report → {REPORT_DIR.resolve()}\n")
 
