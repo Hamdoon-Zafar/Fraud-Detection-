@@ -7,7 +7,7 @@
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project builds a production-ready machine learning pipeline to classify credit card transactions as **legitimate (0)** or **fraudulent (1)**. The core challenge is the severe class imbalance — only **0.172%** of transactions are fraudulent — which requires careful handling to avoid models that simply predict "legitimate" for everything.
 
@@ -22,7 +22,7 @@ This project builds a production-ready machine learning pipeline to classify cre
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 task2_fraud_detection/
@@ -61,7 +61,7 @@ outputs/
 
 ---
 
-## ⚙️ Setup & Installation
+## Setup & Installation
 
 ### 1. Clone the repository
 ```bash
@@ -101,7 +101,7 @@ unzip creditcardfraud.zip
 
 ---
 
-## 🚀 Running the Scripts
+##  Running the Scripts
 
 ### Script 1: Full ML Pipeline (recommended starting point)
 ```bash
@@ -144,7 +144,7 @@ Trains Random Forest, XGBoost, and Logistic Regression on the same data and prod
 
 ---
 
-## 📊 Expected Results
+## Expected Results
 
 | Metric | Value (approx.) |
 |--------|----------------|
@@ -158,13 +158,13 @@ Trains Random Forest, XGBoost, and Logistic Regression on the same data and prod
 
 ---
 
-## 🧠 Why These Metrics Matter
+##  Why These Metrics Matter
 
 ```
 CONFUSION MATRIX
                   Predicted Legitimate  Predicted Fraud
-Actual Legitimate       TN  ✅               FP  ⚠️
-Actual Fraud            FN  ❌               TP  ✅
+Actual Legitimate       TN                FP
+Actual Fraud            FN                 TP
 
 FN (False Negative) = Missed fraud → FINANCIAL LOSS
 FP (False Positive) = False alarm  → CUSTOMER FRICTION only
@@ -177,7 +177,7 @@ A model predicting "Legitimate" for every single transaction scores **99.83% acc
 
 ---
 
-## 📐 Pipeline Architecture
+## Pipeline Architecture
 
 ```
 creditcard.csv
@@ -221,7 +221,7 @@ creditcard.csv
 
 ---
 
-## 📦 Dependencies
+## Dependencies
 
 | Package | Version | Purpose |
 |---------|---------|---------|
@@ -235,15 +235,10 @@ creditcard.csv
 
 ---
 
-## ⚠️ Dataset Notice
+##  Dataset Notice
 
 The `creditcard.csv` file is **not included** in this repository (284 MB). It must be downloaded separately from Kaggle:  
-🔗 https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+ https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 
 ---
 
-## 👤 Author
-
-**Name:** [Your Name]  
-**Internship Domain:** Data Science  
-**Report:** Combined Internship Capstone Report — Data Recovery Systems & Predictive Fraud Analytics
