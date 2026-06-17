@@ -1,6 +1,3 @@
-# Task 2: Credit Card Fraud Detection — Python Dependencies
-# Install with: pip install -r requirements.txt
-
 # Core data science
 pandas>=1.5.0
 numpy>=1.23.0
