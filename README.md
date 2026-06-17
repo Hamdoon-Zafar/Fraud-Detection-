@@ -1,12 +1,5 @@
 # Credit Card Fraud Detection — Task 2
 
-**Internship Domain:** Data Science  
-**Technique:** Supervised Machine Learning — Binary Classification  
-**Algorithm:** Random Forest (primary) | XGBoost | Logistic Regression (comparison)  
-**Dataset:** [Kaggle Credit Card Fraud Detection](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
-
----
-
 ## Project Overview
 
 This project builds a production-ready machine learning pipeline to classify credit card transactions as **legitimate (0)** or **fraudulent (1)**. The core challenge is the severe class imbalance — only **0.172%** of transactions are fraudulent — which requires careful handling to avoid models that simply predict "legitimate" for everything.
@@ -61,15 +54,8 @@ outputs/
 
 ---
 
-## Setup & Installation
 
-### 1. Clone the repository
-```bash
-git clone https://github.com/[your-username]/task2-fraud-detection.git
-cd task2-fraud-detection
-```
-
-### 2. Create a virtual environment (recommended)
+### Create a virtual environment (recommended)
 ```bash
 python -m venv venv
 
@@ -80,12 +66,12 @@ venv\Scripts\activate
 source venv/bin/activate
 ```
 
-### 3. Install dependencies
+### Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Download the dataset
+###  Download the dataset
 
 **Option A — Manual:**
 1. Go to https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
