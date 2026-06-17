@@ -1,4 +1,4 @@
-# Credit Card Fraud Detection — Data Science Capstone Task 2
+# Credit Card Fraud Detection — Task 2
 
 **Internship Domain:** Data Science  
 **Technique:** Supervised Machine Learning — Binary Classification  
