@@ -1,19 +1,3 @@
-"""
-============================================================
-  EXPLORATORY DATA ANALYSIS MODULE
-  Credit Card Fraud Detection | Data Science Capstone
-
-  Run standalone to generate all EDA plots without
-  executing the full training pipeline.
-
-  Usage:
-    python eda.py [--data creditcard.csv]
-
-  Author  : [Your Name]
-  Domain  : Data Science
-============================================================
-"""
-
 import argparse
 import logging
 import sys
@@ -216,7 +200,7 @@ def main():
     plot_pca_features(df)
     plot_fraud_by_hour(df)
 
-    print(f"\n✅ EDA complete. All plots saved to: {PLOTS_DIR.resolve()}\n")
+    print(f"\n EDA complete. All plots saved to: {PLOTS_DIR.resolve()}\n")
 
 
 if __name__ == "__main__":
