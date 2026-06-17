@@ -1,19 +1,3 @@
-"""
-============================================================
-  MODEL COMPARISON — Random Forest vs XGBoost vs Logistic Regression
-  Credit Card Fraud Detection | Data Science Capstone
-
-  Trains three classifiers on the same SMOTE-balanced dataset
-  and produces a side-by-side comparison of all key metrics.
-
-  Usage:
-    python model_comparison.py [--data creditcard.csv]
-
-  Author  : [Your Name]
-  Domain  : Data Science
-============================================================
-"""
-
 import argparse
 import logging
 import sys
@@ -249,7 +233,7 @@ def main():
     plot_metric_bar_comparison(results)
 
     best = max(results, key=lambda r: r["f1"])
-    print(f"🏆 Best model by F1-Score: {best['name']} (F1 = {best['f1']:.4f})")
+    print(f"Best model by F1-Score: {best['name']} (F1 = {best['f1']:.4f})")
     print(f"   Plots saved to: {PLOTS_DIR.resolve()}\n")
 
 
